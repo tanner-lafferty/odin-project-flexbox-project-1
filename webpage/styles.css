@@ -7,6 +7,8 @@ body {
     background-color: #1f2937;
     color: white;
     width: 100%;
+    height: 100vh;
+    width: 100vw;
 
 }
 
@@ -22,7 +24,13 @@ body {
     gap: 32px;
     font-size: 18px;
     align-items: center;
-    padding-right: 16%;
+    margin-right: 16%;
+    border-radius: 10px;
+    background-color: rgb(60, 80, 80);
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 50px;
+    margin-top: 8px;
 }
 
 .header-logo {
@@ -48,6 +56,7 @@ body {
 
 .image1 {
     padding-right: 16%;
+    padding-bottom: 32px;
 
 
 }
@@ -63,5 +72,53 @@ body {
 .button {
     display: flex;
     justify-content: flex-start;
+    padding-top: 8px;
 
 }
+
+.subtext {
+    font-size: 18px;
+}
+
+a, a:link a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+
+.learn-button {
+    padding-top: 12px;
+}
+
+.project1-left {
+    flex-direction: column;
+    padding-right: 3vw;
+    width: 70vw;
+}
+
+
+
+.project1-right {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+
+.paragraph1, .paragraph2, .paragraph3, .subtext, .learn-more{
+    display: flex;
+    font-size: 24px;
+    padding-bottom: 16px;
+    padding-top: 8px;
+}
+
+.learn-more {
+    padding-top: 16px;
+}
+
+.organizing {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 280%;
+}
+
